@@ -82,7 +82,7 @@
 
       :completion
       {:cljs {:use_suitable true}
-       :with_context false}}}}})
+       :with_context true}}}}})
 
 (when (config.get-in [:mapping :enable_defaults])
   (config.merge
